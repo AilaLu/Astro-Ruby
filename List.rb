@@ -23,3 +23,11 @@ p (1..100).to_a.sample(5) #隨機取1~100中的5個數字
 
 
 Enumerables
+
+
+#!驚嘆號的用法: #加上驚嘆號之後 原本的陣列值也被改變了
+list = [8, 4, 6, 2, 9, 3]
+p list.sort
+p list
+p list.sort! #加上驚嘆號之後 原本的陣列值也被改變了
+p list
